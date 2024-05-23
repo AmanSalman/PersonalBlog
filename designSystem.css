@@ -1,0 +1,28 @@
+/* TODO: Fonts Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@532&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@333&display=swap');
+
+:root {
+  --dancing-font: "Dancing Script", cursive;
+  --montserrat-font: "Montserrat", sans-serif;
+  --header-height: 5.5rem;
+  --h2-font-size: 2.2rem;
+
+  --main-color: #e36799;
+  --sec-color: #eb92b6;
+
+  --fisrt-blue: #6f8dbb;
+  --second-blue: #3f5a85;
+  --third-blue: #1f345c;
+  --white: #f6f6f6;
+}
+
+.main-color {
+  color: var(--main-color);
+}
+
+.dancing-font {
+  font-family: var(--dancing-font);
+}
