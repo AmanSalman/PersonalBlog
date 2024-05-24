@@ -1,0 +1,116 @@
+.blog-post {
+  /* background-color: rgb(250, 225, 229); */
+  background-color: rgb(250, 246, 246);
+  border-radius: 8px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  padding: 20px;
+}
+
+.Title-name {
+  font-family: "Quicksand", sans-serif;
+  color: var(--second-blue);
+  font-weight: 700;
+  font-size: 1.8rem;
+  position: relative;
+  padding-left: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Title-name::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 4px;
+  background-color: var(--main-color);
+}
+
+.blog-post-meta {
+  font-style: italic;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.blog-post-content {
+  line-height: 1.7;
+}
+
+.important {
+  font-style: italic;
+  font-weight: 700;
+  color: var(--main-color);
+}
+
+.important-answer {
+  font-style: italic;
+  font-weight: 700;
+  color: var(--second-blue);
+  text-decoration: underline;
+} 
+
+.sec-header {
+  /* font-style: italic; */
+  color: var(--second-blue);
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+section {
+  margin-bottom: 1rem;
+}
+.blog-paragraph {
+  font-weight: 400;
+  font-size: 1.12rem;
+  line-height: 1.5;
+}
+
+.title-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 1rem;
+  padding-inline: 10px;
+  text-align: center;
+}
+
+.title-section h1 {
+  margin: 0;
+  text-decoration: underline;
+  color: var(--main-color);
+}
+
+.button-link {
+	padding: 14px;
+	color: var(--white);
+  background-color: var(--main-color);
+	border-radius: 17px;
+	transition: all 0.5s;
+  margin-right: 5px;
+  border: none;
+}
+
+.button-link:hover {
+  background-color: var(--third-blue);
+  color: var(--fisrt-blue);
+	
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+blockquote {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-left: 5px solid #ccc;
+}
+
+blockquote p {
+  margin: 0;
+  padding-left: 10px;
+  font-style: italic;
+  color: var(--second-blue);
+}

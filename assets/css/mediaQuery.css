@@ -61,7 +61,7 @@
 }
   }
  
- @media(min-width: 322px) and (max-width: 520px) {
+@media(min-width: 322px) and (max-width: 520px) {
    .container {
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -124,8 +124,8 @@ main {
 }
  }
  
- /* Styles for medium screens (500px to 884px) */
- @media(min-width: 521px) and (max-width: 950px) {
+
+@media(min-width: 521px) and (max-width: 950px) {
     nav ul {
        font-size: 1em;
         justify-content: center;

@@ -4,12 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-    <!-- <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
-    rel="stylesheet"> -->
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./mediaQuery.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>   
   </head>
   <body>
     <div class="container">
@@ -19,74 +15,129 @@
         </div>
         <nav>
           <ul class="navbar">
-            <li class="nav-item"><a href="#home">Home</a></li>
-            <li class="nav-item"><a href="#about">About</a></li>
-            <li class="nav-item"><a href="#services">Services</a></li>
-            <li class="nav-item"><a href="#contact">Contact</a></li>
-            <li class="nav-item"><a href="Blog.html">Blog</a></li>
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="./assets/pages/about.html">About</a></li>
+            <li class="nav-item"><a href="index.html#services">Services</a></li>
+            <li class="nav-item"><a href="./assets/pages/about.html#contact">Contact</a></li>
+            <li class="nav-item"><a href="./assets/pages/blogPost.html">Blog</a></li>
           </ul>
         </nav>
       </header>
-      <main>
-        <section class="home">
-          <div class="home-content">
-            <div class="home-title">
-              <h1 class="Title-name">Hi, I'm Aman Salman ♡ !</h1>
-              <p class="Title-desc-web">
-                I'm a passionate web developer <br />
-                and I love to create beautiful responsive websites.
-              </p>
-              <div class="socials">
-                <a href="https://www.facebook.com/aman.salman.7" target="_blank"
-                  ><i class="fa-brands fa-facebook-f"></i
-                ></a>
-                <a
-                  href="https://www.instagram.com/aman.salman2/"
-                  target="_blank"
-                  ><i class="fa-brands fa-instagram"></i
-                ></a>
-                <a href="https://github.com/AmanSalman/" target="_blank"
-                  ><i class="fa-brands fa-github"></i
-                ></a>
-                <a
-                  href="https://linkedin.com/in/aman-salman-347335239/"
-                  target="_blank"
-                  ><i class="fa-brands fa-linkedin-in"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="home-img">
-            <img src="./assets/me.jpeg" alt="photo of me" />
-          </div>
-          <p class="Title-desc-mobile">
-            a passionate developer and I love to create beautiful responsive
-            websites.
-          </p>
-        </section>
+      <aside class="sidebar">
+        <div class="SidebarContent">
+          <a href="./assets/pages/blogPost.html" rel="noopener noreferrer">
+            <p class="sidebar-title">
+            <u>
 
-        <section class="contact-me">
-          <div class="conatct-container">
-            <div class="contact-title">
-              <h1 class="Title-name">Contact Me</h1>
-            </div>
-            <div class="contact-info">
-              <div class="contact-img">
-                <img src="./assets/cont.jpg" alt="photo of me" />
+              <em>
+             See More of my blog ! 
+            </em>
+            </u>
+            </p>
+
+          </a>
+         
+          <ul>
+              <li><a href="#"><strong>Projects </strong>
+                 </a></li>
+              <li><a href="#">Photos</a></li>
+              <li><a href="#">adventures</a></li>
+              <li><a href="#">Socials</a></li>
+          </ul>
+      </div>
+      </aside>
+      <main>
+        <div class="projects">
+          <h1 class="Title-name">
+            My projects
+          </h1>
+          <div class="blog-post-section">
+            <div class="post-container">
+              <div class="post-content">
+                
+                <div class="post-title">
+                  <h2 class="dancing-font">
+                  Bakery Website
+                </h2>
+                <figure class="post-image">
+                  <img src="./assets/images/bakeryWebsite.png" alt="bakery website">
+                  <figcaption>A sneak peek at our delightful bakery website.</figcaption>
+                </figure>
+                </div>
+                <div class="button-post">
+                  <a href="https://bakerybread.netlify.app" target="_blank" class="button-link">
+                    <span class="button-text">
+                      View Project
+                    </span>
+                  </a>
+                  <a href="https://github.com/AmanSalman/Bakery-Website.git" target="_blank" class="button-link">
+                    <span class="button-text">
+                       GitHub Repo
+                    </span>
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
               </div>
-              <form class="contact-form">
-                  <input type="text" class="username" placeholder="User name">
-                  <input type="email" class="email" placeholder="Email">
-                  <input type="text" class="subject" placeholder="Subject">
-                  <textarea class="message" placeholder="Message"></textarea>
-              </form>
+            </div>
+            <div class="post-container">
+              <div class="post-content">
+                <div class="post-title dancing-font">
+                  <h2>
+                    Portfolio Showcase
+                  </h2>
+                </div>
+                <figure  class="post-image">
+                  <img src="./assets/images/portfolio.png" alt="portfolio" />
+                  <figcaption>A snapshot of my latest portfolio projects.</figcaption>
+                </figure>
+                <div class="button-post">
+                  <a href="https://famous-dragon-5c2a3c.netlify.app" target="_blank" class="button-link">
+                    <span class="button-text">
+                      View Project
+                    </span>
+                  </a>
+                  <a href="https://github.com/AmanSalman/Portfolio.git" target="_blank" class="button-link">
+                    <span class="button-text">
+                       GitHub Repo
+                    </span>
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="post-container">
+              <div class="post-content">
+                <div class="post-title dancing-font">
+                  <h2>
+                    Restaurant Website
+                  </h2>
+                </div>
+                <figure  class="post-image">
+                  <img src="./assets/images/restaurant.png" alt="restaurant" />
+                  <figcaption>A glimpse of the beautifully designed restaurant website.</figcaption>
+                </figure>
+                <div class="button-post">
+                  <a href="https://effulgent-tarsier-99dbbf.netlify.app/" target="_blank" class="button-link">
+                    <span class="button-text">
+                      View Project
+                    </span>
+                  </a>
+                  <a href="https://github.com/AmanSalman/Restaurant.git" target="_blank" class="button-link">
+                    <span class="button-text">
+                       GitHub Repo
+                    </span>
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
-        </section>
+        </div>
       </main>
       <footer>
         <span class="copy-right">
           &#169; All Rights Reserved By Aman Salman
-        </span>
+       </span>
       </footer>
     </div>
   </body>
