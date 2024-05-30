@@ -87,7 +87,7 @@
     margin-bottom: 0.3rem;
    }
    .home-img img {
-    max-width: 100%;
+    max-width: 85%;
 }
 .home-content {
   transform: translate(0%, 20%);

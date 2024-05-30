@@ -1,5 +1,20 @@
 
 @import url('./designSystem.css');
 @import url('/assets/css/generalAbout.css');
-@import url('./mediaabout.css');
+@import url('./mediaQuery.css');
 
+.Title-link {
+	padding: 14px;
+	color: var(--white);
+  background-color: var(--main-color);
+	border-radius: 17px;
+	transition: all 0.5s;
+  margin-right: 5px;
+  width: 26%;
+}
+
+.Title-link:hover {
+  background-color: var(--third-blue);
+  color: var(--fisrt-blue);
+	
+}

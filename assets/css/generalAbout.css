@@ -254,6 +254,7 @@ textarea {
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
+  align-items: end;
 }
 
 /* TODO: Footer */
